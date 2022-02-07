@@ -1,0 +1,90 @@
+body{
+    padding: 3%;
+    background-color: rgb(250, 246, 247);
+}
+.black-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+section{
+    padding-bottom: 50px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: rgb(14, 13, 13);
+    border-radius: 45%;
+    width: 10px;
+
+}
+.carousel-indicators .active {
+    opacity: 1;
+    width: 30px;
+    background-color: rgb(248, 143, 4); 
+
+}
+.carousel-area{
+    height: 70%;
+    background-image: url(images/bg-1.png), url(images/bg-2.png);
+    background-position: center, bottom left;
+    background-repeat: no-repeat;
+    background-size: 70px, 100px;
+}
+.carousel-area img{
+    width: 90%;
+    height: 90%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(199, 195, 195);
+}
+.card img{
+    width: 100%;
+}
+.card{
+    border-radius: 3%;
+    border: none;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgb(255, 216, 216);
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+h5{
+    font-weight: bold;
+}
+.middle-pic{ 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cat-pic{
+    width: auto;
+    border-radius: 3%;
+    border: none;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(255, 216, 216);
+    margin-bottom: 12%;
+}
+.underline-style{
+    height: 10px;
+    width: 120px;
+    border-radius: 6px;
+    margin:0 auto;
+    background-image: linear-gradient(to left, orange, rgb(212, 212, 4));
+    margin-bottom: 50px;
+}
+.nav-item a{
+   border : 1px solid transparent;
+   background-color: #FAF6F7;
+   border-radius: 5px;
+}
+.nav-item a:hover{
+   
+    border : 1px solid transparent;
+    background-color:#F88F04;
+    border-radius: 5px;
+    color :#FAF6F7 !important;
+ }
+ 
